@@ -1,6 +1,6 @@
 # ⋆Моє портфоліо⋆
 Це моє особисте портфоліо (HTML-сторінка для університетського завдання)
-## Важливі ссилочкі
+## Важливі посилання
 * 𐙚 **Мій сайт:** https://arinasych.github.io/portfolio/
 * 𐙚 **Репозиторій:** https://github.com/ArinaSych/portfolio
 * 𐙚 **Загальний репозиторій групи:** https://github.com/PorokhovnichenkoIryna/kn-2026
