@@ -1,11 +1,143 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Моє портфоліо</title>
-</head>
-<body>
-    <h1>Привіт!</h1>
-    <p>Тут буде моє перше портфоліо на GitHub</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Аріна Сич | Портфоліо</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        background: #0d0d0d;
+        color: #e0e0e0;
+      }
+      
+      .container {
+        max-width: 900px;
+      }
+      
+      h1, h2 {
+        color: #9b2a2a;
+        font-weight: 500;
+      }
+      
+      hr {
+        border-color: #9b2a2a;
+        width: 50px;
+        margin: 15px 0 25px 0;
+        opacity: 0.6;
+      }
+      
+      .card-custom {
+        background: #161616;
+        border-left: 4px solid #9b2a2a;
+        padding: 20px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        transition: 0.2s;
+      }
+      
+      .card-custom:hover {
+        background: #1c1c1c;
+        transform: translateX(5px);
+      }
+      
+      a {
+        color: #9b2a2a;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: #c04444;
+      }
+      
+      footer {
+        border-top: 1px solid #2a2a2a;
+        margin-top: 50px;
+        padding: 20px 0;
+        text-align: center;
+        color: #555;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          font-size: 14px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container py-5">
+      
+      <!-- Шапка -->
+      <div class="row align-items-center mb-5">
+        <div class="col-12">
+          <h1>Аріна Сич</h1>
+          <p class="lead" style="color: #888;">студентка · 1 курс · КНУБА</p>
+          <hr>
+        </div>
+      </div>
+      
+      <!-- Про мене + Фото -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2>про мене</h2>
+          <div class="card-custom">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+                <!-- Твоє фото з avatars -->
+                <a href="https://arinasych.github.io/portfolio/">
+                  <img src="avatars/avatar6.jpg" alt="Моя ава" class="фото профілю" style="width: 120px; height: 120px; object-fit: cover; border: 3px solid #9b2a2a;">
+                </a>
+              </div>
+              <div class="col-12 col-md-8">
+                <p style="margin: 0;"> Прив. Я Аріна, навчаюсь на першому курсі в КНУБА. Це моє портфоліо з лабораторними роботами та проєктами.</p>
+                <p style="margin-top: 10px; font-size: 14px;">
+                  🔗 <a href="https://arinasych.github.io/portfolio/" target="_blank"> ❀ Моє основне портфоліо →</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Репозиторій -->
+      <div class="row mb-5">
+        <div class="col-12">
+          <h2>репозиторій</h2>
+        </div>
+        
+        <div class="col-12">
+          <div class="card-custom">
+            <p style="font-weight: 500; margin-bottom: 8px;"> ❀ мій репозиторій</p>
+            <p style="color: #777; font-size: 14px; margin: 0;">
+              <a href="https://github.com/ArinaSych/portfolio" target="_blank">github.com/ArinaSych/portfolio</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Контакти -->
+      <div class="row mb-4">
+        <div class="col-12">
+          <h2>контакти</h2>
+          <div class="card-custom" style="text-align: center;">
+            <p style="margin: 0; color: #9b2a2a;"> シ контакти за запитом</p>
+            <p style="font-size: 12px; color: #555;">(але краще без запиту)</p>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <p>© 2025 · КНУБА</p>
+      </footer>
+      
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
